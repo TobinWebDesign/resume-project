@@ -95,3 +95,10 @@ header {
     font-weight: 300;
     
 }
+
+/*.............................................hover*/
+.hvr-sweep-to-bottom:before {
+    background-color: rgb(0,0,0, 0.2);
+    
+    
+}
