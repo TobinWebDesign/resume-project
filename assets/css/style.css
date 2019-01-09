@@ -10,7 +10,7 @@
 }
 
 .ul-menu-color-resume {
-    background-color: #e9b59b6;
+    background-color: #9b59b6;
 }
 
 .ul-menu-color-contact {
@@ -46,6 +46,7 @@ header {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
+     margin-top: 50px;
     color: #ffffff;
     
 }
@@ -57,4 +58,40 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #ffffff;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+
+}
+
+.menu-item a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.menu-item a i {
+    display: block;
+    margin-top: 22px;
+    font-size: 26px;
+   
+}
+
+.menu-item span {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+    font-weight: 300;
+    
 }
