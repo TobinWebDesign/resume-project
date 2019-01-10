@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*.............................................colors*/
+
 .bg-color-name-title {
     background-color: #676767;
 }
@@ -20,35 +21,55 @@
 .ul-menu-color-download {
     background-color: #525252;
 }
-/*.............................................heading*/
-header {
+
+/*.............................................Special*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     margin: 0;
-    
 }
 
-.heading{
+.uppercase {
+    text-transform: uppercase
+}
+    .general-sub {
+        font-family: "Exo", sans-serif;
+        color: #fafafa;
+        font-weight: 300;
+    }
+/*.............................................heading*/
+
+header {
+    margin: 0;
+
+}
+
+.heading {
     margin-left: 50px;
 }
 
-.logo{
+.logo {
     background: url("/assets/images/AilinTobinprotrait.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    
+
 }
 
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
-     margin-top: 50px;
+    margin-top: 50px;
     color: #ffffff;
-    
+
 }
 
 .title {
@@ -75,14 +96,14 @@ header {
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .menu-item a i {
     display: block;
     margin-top: 22px;
     font-size: 26px;
-   
+
 }
 
 .menu-item span {
@@ -93,12 +114,21 @@ header {
     text-transform: uppercase;
     padding-top: 5px;
     font-weight: 300;
-    
+
 }
 
 /*.............................................hover*/
+
 .hvr-sweep-to-bottom:before {
-    background-color: rgb(0,0,0, 0.2);
-    
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+/*.............................................footer*/
+
+footer {
+    background-color: #525252;
+    min-height: 120px;
+    color: #fafafa;
+    margin: 0;
     
 }
