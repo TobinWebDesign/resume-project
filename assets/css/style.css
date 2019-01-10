@@ -22,7 +22,7 @@
     background-color: #525252;
 }
 
-/*.............................................Special*/
+/*.............................................Special Paddings/Margins/Text*/
 
 h1,
 h2,
@@ -52,7 +52,7 @@ header {
 }
 
 .logo {
-    background: url("/assets/images/AilinTobinprotrait.jpg");
+    background: url("../images/AilinTobinprotrait.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
