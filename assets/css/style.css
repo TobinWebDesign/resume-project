@@ -15,6 +15,10 @@ body {
     background-color: #ffffff;
 }
 
+.bg-color-personal-info {
+    background-color: #fafafa;
+}
+
 .ul-menu-color-home {
     background-color: #e67e22;
 }
@@ -55,11 +59,7 @@ h5 {
 .inline-block {
     display: inline-block;
 }
-.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-}
+
 
 .row-table {
     display: table;
@@ -221,6 +221,10 @@ footer .cv-pdf i:hover {
 
 /*.............................................Personal Info*/
 
-.bg-color-personal-info {
-    background-color: #fafafa;
+@media(min-width: 992px){
+    .section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
 }
