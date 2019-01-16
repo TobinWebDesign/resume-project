@@ -261,6 +261,28 @@ footer .cv-pdf i:hover {
     
 }
 
+/*.............................................Progress Bars*/
+
+.progress{
+    position: relative;
+    height: 25px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 300;
+    padding: 3px 30px 3px 10px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.progress-sections {
+    margin: 40px 20px;
+    
+}
+
+
+
 /*.............................................Media Query*/
 
 @media(min-width: 992px){
